@@ -1,16 +1,40 @@
-### Hi there 👋
+### Всем привет 👋
 
-<!--
-**atropinskiy/atropinskiy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Меня зовут Александр Тропинский :raising_hand: 
 
-Here are some ideas to get you started:
+Закончил Москвоский Энергетический Институт, факультет автоматики и вычислительной техники.  
+Мою карьеру можно разбить на 2 большие составляющие: 7 лет управленческого опыта салонами связи и 6 лет аналитики и работы с данными.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+В настоящее время руководители не всегда понимают, что умеют аналитики и программисты, а программисты не всегда понимают чего от них хотят заказчики. Совместив 2 важных этапа становления, очень комфортно ощущаю себя в развитии бизнеса, осваиваю новые инструменты и всегда с удовольствием учавствую в различных проектах.
+
+###### DevOps Tools:
+Github Actions, Python, Bash
+
+###### Databases: 
+PostgreSQL, MySQL,
+
+###### Operating Systems: 
+Ubuntu, Windows
+
+###### Data Science: 
+Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
+<br><br>
+<h3>My Repositories</h3>
+
+<table width=100%>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>🎁 Projects</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>📚 Комментарий</b></td>
+    </tr>
+  </thead>
+  <tbody>
+
+<tr>
+      <td><a href="https://github.com/atropinskiy/yandex_practice"><b>Yandex Practice</b></a></td>
+      <td><a href="https://github.com/akylson/Terraform_Projects/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/akylson/Terraform_Projects?style=flat-square&labelColor=343b41"/></a></td>
+      <td>Курс от Yandex practicum "Специалист по Data science"</td>
+</tr>    
+
+</table>
