@@ -10,7 +10,7 @@
 Недавно разработал корпоративный портал, который включает в себя CRM и аналитические инструменты, которые успешно используются в нашей компании. Теперь хочу сделать приложение на iOS на Swift.
 
 ###### DevOps Tools:
-Github Actions, Python, Bash, Swift, Docker
+Github Actions, Python, Bash, Swift, Docker, JS, Jquery, HTML, CSS.
 
 ###### Databases: 
 PostgreSQL, MySQL,
