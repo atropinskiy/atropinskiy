@@ -41,6 +41,7 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
       <td>Курс от Yandex practicum "Специалист по Data science"</td>
 </tr>    
 </table>
+
 <h3>Frontend Repositories</h3>
 ###### Frontend development: 
 JS Native, React, Redux, Swift
