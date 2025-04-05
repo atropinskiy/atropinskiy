@@ -34,7 +34,6 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
       <td><b>📚 Комментарий</b></td>
     </tr>
   </thead>
-  <tbody>
 <tr>
       <td><a href="https://github.com/atropinskiy/yandex_practice"><b>Yandex Practice</b></a></td>
       <td><a href="https://github.com/akylson/Terraform_Projects/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/akylson/Terraform_Projects?style=flat-square&labelColor=343b41"/></a></td>
@@ -43,6 +42,7 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
 </table>
 
 <h3>Frontend Repositories</h3>
+
 ###### Frontend development: 
 JS Native, React, Redux, Swift
 <br><br>
@@ -58,5 +58,10 @@ JS Native, React, Redux, Swift
     <td><a href="https://github.com/atropinskiy/schedule"><b>Расписание электричек</b></a></td>
     <td></td>
     <td>Проект на Swift UI, использующий API Яндекс Расписания. Позволяет подобрать билеты в нужном направлени. Архитектура MVVM</td>
+  </tr>
+    <tr>
+    <td><a href="https://github.com/atropinskiy/schedule"><b>ImageFeed</b></a></td>
+    <td></td>
+    <td>Проект Swift на UIKit. Позволяет просматривать картинки сервиса ImageFeed и ставить лайки. </td>
   </tr>
 </table>
