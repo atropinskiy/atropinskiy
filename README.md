@@ -41,7 +41,7 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
       <td><a href="https://github.com/akylson/Terraform_Projects/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/akylson/Terraform_Projects?style=flat-square&labelColor=343b41"/></a></td>
       <td>Курс от Yandex practicum "Специалист по Data science"</td>
 </tr>    
-
+</tbody>
 </table>
 <br><br>
 ###### Frontend development: 
