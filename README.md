@@ -45,8 +45,9 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
 </table>
 
 ###### Frontend development: 
+JS Native, React, Redux, Swift
 <br><br>
-<table width=100%>
+<table width="100%">
     <tr border: none;>
       <td><b>🎁 Projects</b></td>
       <td><b>⭐ Stars</b></td>
