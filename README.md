@@ -35,14 +35,12 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
     </tr>
   </thead>
   <tbody>
-
 <tr>
       <td><a href="https://github.com/atropinskiy/yandex_practice"><b>Yandex Practice</b></a></td>
       <td><a href="https://github.com/akylson/Terraform_Projects/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/akylson/Terraform_Projects?style=flat-square&labelColor=343b41"/></a></td>
       <td>Курс от Yandex practicum "Специалист по Data science"</td>
 </tr>    
 </table>
-
 <h3>Frontend Repositories</h3>
 ###### Frontend development: 
 JS Native, React, Redux, Swift
