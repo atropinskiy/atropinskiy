@@ -48,11 +48,13 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
 JS Native, React, Redux, Swift
 <br><br>
 <table width="100%">
+  <thead align="center">
     <tr border: none;>
       <td><b>🎁 Projects</b></td>
       <td><b>⭐ Stars</b></td>
       <td><b>📚 Комментарий</b></td>
     </tr>
+  </thead>
   <tr>
     <td><a href="https://github.com/atropinskiy/schedule"><b>Расписание электричек</b></a></td>
     <td></td>
