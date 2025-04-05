@@ -43,7 +43,6 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
 </tr>    
 </table>
 
-<br><br>
 ###### Frontend development: 
 JS Native, React, Redux, Swift
 <br><br>
@@ -53,4 +52,9 @@ JS Native, React, Redux, Swift
       <td><b>⭐ Stars</b></td>
       <td><b>📚 Комментарий</b></td>
     </tr>
+  <tr>
+    <td><a href="https://github.com/atropinskiy/yandex_practice"><b>Расписание электричек</b></a></td>
+    <td></td>
+    <td>Проект на Swift UI, использующий API Яндекс Расписания. Позволяет подобрать билеты в нужном направлени. Архитектура MVVM</td>
+  </tr>
 </table>
