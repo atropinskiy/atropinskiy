@@ -43,3 +43,13 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
 </tr>    
 
 </table>
+
+###### Frontend development: 
+<br><br>
+<table width=100%>
+    <tr border: none;>
+      <td><b>🎁 Projects</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>📚 Комментарий</b></td>
+    </tr>
+</table>
