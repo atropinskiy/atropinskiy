@@ -43,7 +43,6 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
 
 ###### Frontend: 
 JS Native, React, Redux, Swift
-<br><br>
 <table width="100%">
   <thead align="center">
     <tr border: none;>
