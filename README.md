@@ -41,8 +41,7 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
 </tr>    
 </table>
 
-<h3>Frontend Repositories</h3>
-###### Frontend development: 
+###### Frontend: 
 JS Native, React, Redux, Swift
 <br><br>
 <table width="100%">
