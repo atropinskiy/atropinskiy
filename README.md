@@ -47,7 +47,7 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
 </tr>    
 </table>
 
-<h3>Frontend: Swift</h3>: 
+<h3>Frontend: Swift</h3>
 <table width="100%">
   <thead align="center">
     <tr border: none;>
