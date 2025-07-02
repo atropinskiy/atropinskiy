@@ -72,3 +72,15 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
     <td>Проект Swift на UIKit. Позволяет просматривать картинки сервиса ImageFeed и ставить лайки. </td>
   </tr>
 </table>
+
+<h3>React Repositories</h3>
+
+<table width=100%>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>🎁 Projects</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>📚 Комментарий</b></td>
+    </tr>
+  </thead>
+</table>
