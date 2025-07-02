@@ -62,9 +62,9 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
     <td>Проект на Swift UI, использующий API Яндекс Расписания. Позволяет подобрать билеты в нужном направлени. Архитектура MVVM</td>
   </tr>
     <tr>
-    <td><a href="https://github.com/atropinskiy/schedule"><b>Расписание электричек</b></a></td>
+    <td><a href="https://github.com/atropinskiy/schedule"><b>NFT Маркетплейс</b></a></td>
     <td></td>
-    <td>Проект на Swift UI, использующий API Яндекс Расписания. Позволяет подобрать билеты в нужном направлени. Архитектура MVVM</td>
+    <td>Командный проект из 4 модулей с гелереей NFT и возможностью оценивать и делать покупки</td>
   </tr>
     <tr>
     <td><a href="https://github.com/atropinskiy/schedule"><b>ImageFeed</b></a></td>
