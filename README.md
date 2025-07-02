@@ -10,16 +10,22 @@
 Недавно разработал корпоративный портал, который включает в себя CRM и аналитические инструменты, которые успешно используются в нашей компании. Теперь хочу сделать приложение на iOS на Swift.
 
 ###### DevOps Tools:
-Github Actions, Python, Bash, Swift, Docker, JS, Jquery, HTML, CSS.
+Github Actions, Netlify, Bash, Swift, Docker
 
 ###### Databases: 
 PostgreSQL, MySQL,
 
 ###### Frameworks: 
-Django, Select2, AG-grid, Bootstrap
+Django, Select2, AG-grid, Bootstrap, FastApi
+
+###### Libs: 
+Ag-grid, React, Chakra UI
 
 ###### Operating Systems: 
 Ubuntu, Windows
+
+###### Frontend tools: 
+React, scss, TypeScript, Swift
 
 ###### Data Science: 
 Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
