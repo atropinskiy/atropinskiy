@@ -47,8 +47,7 @@ Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
 </tr>    
 </table>
 
-<h3>Frontend</h3>: 
-JS Native, React, Redux, Swift
+<h3>Frontend: Swift</h3>: 
 <table width="100%">
   <thead align="center">
     <tr border: none;>
@@ -58,6 +57,11 @@ JS Native, React, Redux, Swift
     </tr>
   </thead>
   <tr>
+    <td><a href="https://github.com/atropinskiy/schedule"><b>Расписание электричек</b></a></td>
+    <td></td>
+    <td>Проект на Swift UI, использующий API Яндекс Расписания. Позволяет подобрать билеты в нужном направлени. Архитектура MVVM</td>
+  </tr>
+    <tr>
     <td><a href="https://github.com/atropinskiy/schedule"><b>Расписание электричек</b></a></td>
     <td></td>
     <td>Проект на Swift UI, использующий API Яндекс Расписания. Позволяет подобрать билеты в нужном направлени. Архитектура MVVM</td>
