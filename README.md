@@ -35,6 +35,7 @@
 | **Frontend**                  | TypeScript, JavaScript, Next.js, React, HTML5 / SCSS, Tailwind CSS, Plotly.js                 |
 | **Mobile (iOS)**              | Swift, SwiftUI, UIKit, MVVM, Clean Architecture, Combine                                      |
 | **Databases & ORM**           | PostgreSQL, MySQL, SQLAlchemy, Django ORM, Redis                                              |
+| **AI & LLM Orchestration**    | Multi-Agent Systems, OpenRouter API, Prompt Engineering, Streaming SSE / WebSockets           |
 | **DevOps & Cloud**            | Docker, Docker Compose, GitHub Actions, CI/CD, Nginx, Linux (Ubuntu), Bash                    |
 | **Data & Analytics**          | Pandas, NumPy, Scikit-learn, Matplotlib, Data Pipelines & Web Scraping                        |
 
@@ -44,16 +45,17 @@
 
 ## 🚀 Архитектура и ключевые проекты
 
-> Проектирование и разработка **Opt-One** — распределенной B2B E-commerce, Mobile & FinTech экосистемы для оптовой торговли электроникой, мониторинга цен, проведения торгов и мультивалютного финансового учета.
+> Проектирование и разработка распределенных корпоративных SaaS-платформ, FinTech-решений, AI-систем и мобильных приложений.
 
 <div align="center">
 
-| Модуль платформы         | Бизнес-назначение                                   | Ключевой стек                                                                       |
-| :----------------------- | :-------------------------------------------------- | :---------------------------------------------------------------------------------- |
-| 💼 **Opt-one.online**    | SaaS-мониторинг цен, аналитика маржинальности и CRM | `Django` • `Plotly.js` • `PostgreSQL` • `Docker` • `Docker Compose`                 |
-| 🤝 **Opt-one Partners**  | B2B-портал партнерских торгов, тендеров и офферов   | `React` • `RTK Query` • `Django` • `WebSocket` • `AI` • `Docker` • `Docker Compose` |
-| 💳 **Opt-one Wallet**    | Казначейство, трансграничные платежи и 1С           | `React` • `Redux` • `Chakra UI` • `DRF` • `1C API` • `Docker` • `Docker Compose`    |
-| 📱 **MasterStats (iOS)** | Мобильное приложение анализа трендов цен и закупок  | `Swift` • `SwiftUI` • `Combine` • `Charts` • `Docker` • `Docker Compose`            |
+| Модуль / Проект          | Бизнес-назначение                                         | Ключевой стек                                                                            |
+| :----------------------- | :-------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| 💼 **Opt-one.online**    | SaaS-мониторинг цен, аналитика маржинальности и CRM       | `Django` • `Plotly.js` • `PostgreSQL` • `Docker` • `Docker Compose`                      |
+| 🤝 **Opt-one Partners**  | B2B-портал партнерских торгов, тендеров и офферов         | `React` • `RTK Query` • `Django` • `WebSocket` • `AI` • `Docker` • `Docker Compose`      |
+| 💳 **Opt-one Wallet**    | Казначейство, трансграничные платежи и 1С                 | `React` • `Redux` • `Chakra UI` • `DRF` • `1C API` • `Docker` • `Docker Compose`         |
+| 📱 **MasterStats (iOS)** | Мобильное приложение анализа трендов цен и закупок        | `Swift` • `SwiftUI` • `Combine` • `Charts` • `Docker` • `Docker Compose`                 |
+| 🤖 **AgentCamp**         | Мультиагентная платформа управления и симуляции ИИ-команд | `Next.js` • `FastAPI` • `OpenRouter API` • `Token Billing` • `Docker` • `Docker Compose` |
 
 </div>
 
@@ -258,6 +260,62 @@
           </a>
           <br>
           <sub><i>Многоуровневая фильтрация моделей и дат</i></sub>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+
+### 5. 🤖 AgentCamp — Мультиагентная платформа управления и симуляции ИИ-команд
+
+> **Роль:** System Architect / Lead Full-Stack & AI Engineer  
+> **Стек:** `Next.js` • `FastAPI` • `Python` • `OpenRouter API` • `Multi-Agent Orchestration` • `Token Billing` • `Docker` • `Docker Compose`
+
+**AgentCamp** — инновационная SaaS-платформа для создания, обучения, кастомизации и иерархического управления персональными командами ИИ-агентов на базе широкого спектра LLM-моделей (OpenRouter).
+
+#### 🌟 Ключевые возможности и архитектурные решения:
+
+- **Организационная структура и субординация:** Построение 2-уровневых команд с распределением ролей (CTO, маркетологи, аналитики, юристы), настройкой подчинения и делегированием задач между агентами.
+- **Мультиагентные переговорные (Round-Table Discussions):** Проведение совместных планерок и мозговых штурмов с участием нескольких разнопрофильных ИИ-агентов в едином контексте с автогенерацией протоколов.
+- **Глубокая кастомизация и геймификация:** Конструктор агентов с Lego-аватарами, шаблонами ролей, тонкими системными промптами и гибким выбором нейросетей под задачу (Gemini 3.7 Flash, DeepSeek V3, GPT-4o, Claude).
+- **Сквозной биллинг токенов (Token Billing & Auto-Pay):** Система динамического тарификатора расхода токенов, контроль баланса в USD, учет стоимости запросов по моделям и автоматическое списание.
+- **Асинхронный бэкенд на FastAPI:** Высокопроизводительный пайплайн потоковой генерации ответов (Streaming SSE/WebSockets) и управление очередями запросов к OpenRouter API.
+
+<br>
+
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+    <thead>
+      <tr align="center">
+        <th width="33%"><b>🖥 Рабочее пространство и хаб</b></th>
+        <th width="33%"><b>🖥 Оргструктура и команда агентов</b></th>
+        <th width="33%"><b>🖥 Конструктор агентов и субординация</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center" valign="top" style="padding: 8px;">
+          <a href="sites/agnetcamp/screenshots/image.png">
+            <img src="sites/agnetcamp/screenshots/image.png" alt="AgentCamp Workspace Hub" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Главный хаб: баланс, биллинг токенов, переговорные и таймлайн</i></sub>
+        </td>
+        <td align="center" valign="top" style="padding: 8px;">
+          <a href="sites/agnetcamp/screenshots/image%20copy.png">
+            <img src="sites/agnetcamp/screenshots/image%20copy.png" alt="AgentCamp AI Team Hierarchy" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Управление штатом: субординация, промпты и выбор LLM моделей</i></sub>
+        </td>
+        <td align="center" valign="top" style="padding: 8px;">
+          <a href="sites/agnetcamp/screenshots/image%20copy%202.png">
+            <img src="sites/agnetcamp/screenshots/image%20copy%202.png" alt="AgentCamp Agent Builder" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Конструктор агента: Lego-стиль, шаблоны ролей, системный контекст</i></sub>
         </td>
       </tr>
     </tbody>
