@@ -44,22 +44,22 @@
 
 ## 🚀 Архитектура и ключевые проекты
 
-> Проектирование и разработка **Opt-One** — распределенной B2B E-commerce & FinTech экосистемы для оптовой торговли электроникой, мониторинга цен, проведения торгов и мультивалютного финансового учета.
+> Проектирование и разработка **Opt-One** — распределенной B2B E-commerce, Mobile & FinTech экосистемы для оптовой торговли электроникой, мониторинга цен, проведения торгов и мультивалютного финансового учета.
 
 <div align="center">
 
-| Модуль платформы        | Бизнес-назначение                                   | Ключевой стек                                         |                                         Детализация                                          |
-| :---------------------- | :-------------------------------------------------- | :---------------------------------------------------- | :------------------------------------------------------------------------------------------: |
-| 💼 **Opt-one.online**   | SaaS-мониторинг цен, аналитика маржинальности и CRM | `Django` • `Plotly.js` • `PostgreSQL` • `Docker`      |      [Развернуть](#1--opt-oneonline--b2b-saas-платформа-закупок-мониторинга-цен-и-crm)       |
-| 🤝 **Opt-one Partners** | B2B-портал партнерских торгов, тендеров и офферов   | `React` • `RTK Query` • `Django` • `WebSocket` • `AI` | [Развернуть](#2--opt-one-partners--b2b-saas-портал-партнерских-закупок-тендеров-и-фин-учета) |
-| 💳 **Opt-one Wallet**   | Казначейство, трансграничные платежи и 1С           | `React` • `Redux` • `Chakra UI` • `1C API` • `DRF`    | [Развернуть](#3--opt-one-wallet--saas-система-трансграничных-платежей-казначейства-и-учета)  |
+| Модуль платформы         | Бизнес-назначение                                   | Ключевой стек                                                                       |
+| :----------------------- | :-------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| 💼 **Opt-one.online**    | SaaS-мониторинг цен, аналитика маржинальности и CRM | `Django` • `Plotly.js` • `PostgreSQL` • `Docker` • `Docker Compose`                 |
+| 🤝 **Opt-one Partners**  | B2B-портал партнерских торгов, тендеров и офферов   | `React` • `RTK Query` • `Django` • `WebSocket` • `AI` • `Docker` • `Docker Compose` |
+| 💳 **Opt-one Wallet**    | Казначейство, трансграничные платежи и 1С           | `React` • `Redux` • `Chakra UI` • `DRF` • `1C API` • `Docker` • `Docker Compose`    |
+| 📱 **MasterStats (iOS)** | Мобильное приложение анализа трендов цен и закупок  | `Swift` • `SwiftUI` • `Combine` • `Charts` • `Docker` • `Docker Compose`            |
 
 </div>
 
-<br>
+---
 
-<details open>
-<summary><h3>1. 💼 Opt-one.online — B2B SaaS платформа закупок, мониторинга цен и CRM</h3></summary>
+### 1. 💼 Opt-one.online — B2B SaaS платформа закупок, мониторинга цен и CRM
 
 > **Роль:** System Architect / Lead Full-Stack Developer  
 > **Стек:** `Python` • `Django` • `Plotly.js` • `SCSS` • `PostgreSQL` • `OAuth 2.0` • `Docker` • `Docker Compose`
@@ -72,6 +72,8 @@
 - **Автоматизация обработки спецификаций (PL Parser):** Сервис парсинга и сопоставления разноформатных Excel/PL файлов в единую номенклатуру каталога.
 - **Финансово-операционный CRM-контур:** Управление цепочками инвойсов, учет оплат, контроль распределения товаров и мультивалютный пересчет.
 - **Безопасность и разграничение прав:** Интеграция OAuth 2.0 и гранулярная ролевая модель (RBAC) для отделов продаж, логистики и менеджмента.
+
+<br>
 
 <div align="center">
   <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
@@ -102,12 +104,9 @@
   </table>
 </div>
 
-</details>
-
 ---
 
-<details>
-<summary><h3>2. 🤝 Opt-one Partners — B2B SaaS портал партнерских закупок, тендеров и фин. учета</h3></summary>
+### 2. 🤝 Opt-one Partners — B2B SaaS портал партнерских закупок, тендеров и фин. учета
 
 > **Роль:** System Architect / Lead Full-Stack Developer  
 > **Стек:** `React` • `RTK Query` • `Django` • `Tailwind CSS` • `shadcn/ui` • `WebSocket` • `Celery` • `Redis` • `PostgreSQL` • `OpenRouter API` • `Docker` • `Docker Compose` • `HttpOnly Cookie`
@@ -122,6 +121,8 @@
 - **Реактивная архитектура и высокая отзывчивость:** Real-time доставка обновлений и статусов через WebSockets, асинхронная обработка тяжелых задач (парсинг, отчеты) в фоновых воркерах Celery + Redis с многоуровневым кэшированием.
 - **AI-интеграция (OpenRouter API):** Подключение LLM-моделей для интеллектуального анализа данных, обработки неструктурированных спецификаций и генерации таргетов.
 - **Безопасность корпоративного уровня:** Защита сессий и токенов с использованием HttpOnly Cookie, ролевая изоляция данных и аудит действий.
+
+<br>
 
 <div align="center">
   <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
@@ -152,12 +153,9 @@
   </table>
 </div>
 
-</details>
-
 ---
 
-<details>
-<summary><h3>3. 💳 Opt-one Wallet — SaaS система трансграничных платежей, казначейства и учета</h3></summary>
+### 3. 💳 Opt-one Wallet — SaaS система трансграничных платежей, казначейства и учета
 
 > **Роль:** System Architect / Lead Full-Stack Developer  
 > **Стек:** `React` • `Redux` • `RTK Query` • `Django` • `REST API` • `Chakra UI` • `PostgreSQL` • `Docker` • `Docker Compose` • `1C Integration` • `Bank Statement Parsers`
@@ -171,6 +169,8 @@
 - **Парсер банковских выписок и консолидация:** Автоматический импорт и нормализация разноформатных банковских выгрузок в единую аналитическую панель с сопоставлением платежных поручений.
 - **Интеграция с 1С и учетными системами:** Двусторонний обмен данными по заявкам на оплату, закрывающим документам, контрагентам и фактическим проводкам.
 - **Контроль обязательств и сделок:** Модуль ведения заявок на импорт, обязательств перед партнерами и исполнителями с гибкой фильтрацией и экспортом отчетов (`.xlsx`).
+
+<br>
 
 <div align="center">
   <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
@@ -201,6 +201,67 @@
   </table>
 </div>
 
-</details>
+---
+
+### 4. 📱 MasterStats (iOS) — Мобильное приложение аналитики цен, трендов и закупок
+
+> **Роль:** Lead iOS & Mobile System Architect  
+> **Стек:** `Swift` • `SwiftUI` • `Combine` • `Charts` • `MVVM` • `Clean Architecture` • `REST API` • `Docker` • `Docker Compose`
+
+**MasterStats** — нативное iOS-приложение для оперативного анализа рыночных трендов цен электроники, мониторинга объема предложений поставщиков и принятия обоснованных решений по закупкам в режиме реального времени.
+
+#### 🌟 Ключевые возможности и архитектурные решения:
+
+- **Аналитика трендов и динамики рынка:** Выявление ключевых ценовых колебаний, расчет средних цен и автоматическое определение лидеров роста и падения (Top 5 Grow / Top 5 Fall).
+- **Интерактивные графики (SwiftUI Charts):** Недельный мониторинг средней стоимости и плотности распределения партий по выбранным конфигурациям устройств.
+- **Инструменты принятия решений о закупках:** Гранулярная фильтрация по периодам, моделям (iPhone 13–16 Pro/Max) и региональным спецификациям (включая китайский рынок) для точного расчета таргетов.
+- **Нативная реактивная архитектура:** Высокая производительность и мгновенный отклик интерфейса на базе Swift, SwiftUI, Combine и Clean Architecture / MVVM.
+
+<br>
+
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+    <thead>
+      <tr align="center">
+        <th width="25%"><b>📱 Аналитический дашборд</b></th>
+        <th width="25%"><b>📱 Тренды по моделям</b></th>
+        <th width="25%"><b>📱 Монитор цен (Top Prices)</b></th>
+        <th width="25%"><b>📱 Фильтры и спецификации</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center" valign="top" style="padding: 5px;">
+          <a href="sites/masterstats/screens/image%20copy%202.png">
+            <img src="sites/masterstats/screens/image%20copy%202.png" alt="MasterStats iOS Dashboard & Trends" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Дашборд: динамика цен, Top 5 роста и падения</i></sub>
+        </td>
+        <td align="center" valign="top" style="padding: 5px;">
+          <a href="sites/masterstats/screens/image%20copy%203.png">
+            <img src="sites/masterstats/screens/image%20copy%203.png" alt="MasterStats Model Analytics" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Недельная динамика цен и объемов (SwiftUI Charts)</i></sub>
+        </td>
+        <td align="center" valign="top" style="padding: 5px;">
+          <a href="sites/masterstats/screens/image.png">
+            <img src="sites/masterstats/screens/image.png" alt="MasterStats Top Prices" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Список лучших цен и остатков по моделям</i></sub>
+        </td>
+        <td align="center" valign="top" style="padding: 5px;">
+          <a href="sites/masterstats/screens/image%20copy.png">
+            <img src="sites/masterstats/screens/image%20copy.png" alt="MasterStats Filters" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Многоуровневая фильтрация моделей и дат</i></sub>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ---
