@@ -1,86 +1,94 @@
-### Всем привет 👋
+<div align="center">
 
-### Меня зовут Александр Тропинский :raising_hand: 
+# Александр Тропинский
 
-Закончил Москвоский Энергетический Институт, факультет автоматики и вычислительной техники.  
-Мою карьеру можно разбить на 2 большие составляющие: 7 лет управленческого опыта салонами связи и 6 лет аналитики и работы с данными.  
+### **Team Lead | System Architect | Full-Stack & Mobile Engineer**
 
-В настоящее время руководители не всегда понимают, что умеют аналитики и программисты, а программисты не всегда понимают чего от них хотят заказчики. Совместив 2 важных этапа становления, очень комфортно ощущаю себя в развитии бизнеса, осваиваю новые инструменты и всегда с удовольствием учавствую в различных проектах.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![Telegram](https://img.shields.io/badge/Telegram-Chat-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/atropinskiy)
 
-Недавно разработал корпоративный портал, который включает в себя CRM и аналитические инструменты, которые успешно используются в нашей компании. Теперь хочу сделать приложение на iOS на Swift.
+</div>
 
-###### DevOps Tools:
-Github Actions, Netlify, Bash, Swift, Docker
+---
 
-###### Databases: 
-PostgreSQL, MySQL,
+### 👨‍💻 Обо мне
 
-###### Frameworks: 
-Django, Select2, AG-grid, Bootstrap, FastApi
+Выпускник **Московского Энергетического Института (МЭИ, АВТИ)** по направлению автоматики и вычислительной техники.
 
-###### Libs: 
-Ag-grid, React, Chakra UI
+Мой профессиональный бэкграунд сочетает **7 лет управленческого опыта** и **6+ лет глубокой инженерной и аналитической экспертизы**. Как **Team Lead и System Architect**, я соединяю бизнес-цели и техническую реализацию:
 
-###### Operating Systems: 
-Ubuntu, Windows
+- Проектирую масштабируемую архитектуру распределенных веб- и мобильных систем (**FastAPI, Next.js, Django, Swift / iOS**).
+- Выстраиваю эффективные процессы разработки в команде, CI/CD пайплайны и культуру надежности кода.
+- Создаю корпоративные SaaS-решения, CRM, аналитические платформы и мобильные приложения с акцентом на бизнес-результат и чистый UX/UI.
 
-###### Frontend tools: 
-React, scss, TypeScript, Swift
+---
 
-###### Data Science: 
-Python, Pandas, Numpy, Matplotlib, SciPy, Scikit-learn, TensorFlow, Keras
-<br><br>
-<h3>DS Repositories</h3>
+### 🛠 Технологический стек
 
-<table width=100%>
-  <thead align="center">
-    <tr border: none;>
-      <td><b>🎁 Projects</b></td>
-      <td><b>⭐ Stars</b></td>
-      <td><b>📚 Комментарий</b></td>
-    </tr>
-  </thead>
-<tr>
-      <td><a href="https://github.com/atropinskiy/yandex_practice"><b>Yandex Practice</b></a></td>
-      <td><a href="https://github.com/akylson/Terraform_Projects/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/akylson/Terraform_Projects?style=flat-square&labelColor=343b41"/></a></td>
-      <td>Курс от Yandex practicum "Специалист по Data science"</td>
-</tr>    
-</table>
+<div align="center">
 
-<h3>Frontend: Swift</h3>
-<table width="100%">
-  <thead align="center">
-    <tr border: none;>
-      <td><b>🎁 Projects</b></td>
-      <td><b>⭐ Stars</b></td>
-      <td><b>📚 Комментарий</b></td>
-    </tr>
-  </thead>
-  <tr>
-    <td><a href="https://github.com/atropinskiy/schedule"><b>Расписание электричек</b></a></td>
-    <td></td>
-    <td>Проект на Swift UI, использующий API Яндекс Расписания. Позволяет подобрать билеты в нужном направлени. Архитектура MVVM</td>
-  </tr>
-    <tr>
-    <td><a href="https://github.com/atropinskiy/schedule"><b>NFT Маркетплейс</b></a></td>
-    <td></td>
-    <td>Командный проект из 4 модулей с гелереей NFT и возможностью оценивать и делать покупки</td>
-  </tr>
-    <tr>
-    <td><a href="https://github.com/atropinskiy/schedule"><b>ImageFeed</b></a></td>
-    <td></td>
-    <td>Проект Swift на UIKit. Позволяет просматривать картинки сервиса ImageFeed и ставить лайки. </td>
-  </tr>
-</table>
+| Категория                     | Технологии                                                                                    |
+| :---------------------------- | :-------------------------------------------------------------------------------------------- |
+| **Architecture & Leadership** | System Design, Microservices, Domain-Driven Design (DDD), Agile/Scrum, Code Review, Mentoring |
+| **Backend**                   | Python, FastAPI, Django, Django REST Framework, Node.js, Celery, Redis                        |
+| **Frontend**                  | TypeScript, JavaScript, Next.js, React, HTML5 / SCSS, Tailwind CSS, Plotly.js                 |
+| **Mobile (iOS)**              | Swift, SwiftUI, UIKit, MVVM, Clean Architecture, Combine                                      |
+| **Databases & ORM**           | PostgreSQL, MySQL, SQLAlchemy, Django ORM, Redis                                              |
+| **DevOps & Cloud**            | Docker, Docker Compose, GitHub Actions, CI/CD, Nginx, Linux (Ubuntu), Bash                    |
+| **Data & Analytics**          | Pandas, NumPy, Scikit-learn, Matplotlib, Data Pipelines & Web Scraping                        |
 
-<h3>React Repositories</h3>
+</div>
 
-<table width=100%>
-  <thead align="center">
-    <tr border: none;>
-      <td><b>🎁 Projects</b></td>
-      <td><b>⭐ Stars</b></td>
-      <td><b>📚 Комментарий</b></td>
-    </tr>
-  </thead>
-</table>
+---
+
+## 🚀 Проекты
+
+---
+
+### 1. 💼 Opt-one.online — B2B SaaS платформа закупок, мониторинга цен и CRM
+
+> **Роль:** System Architect / Lead Full-Stack Developer  
+> **Стек:** `Python` • `Django` • `Plotly.js` • `SCSS` • `PostgreSQL` • `OAuth 2.0` • `Docker`
+
+**Opt-one** — комплексная облачная SaaS-платформа для управления оптовыми поставками электроники, сквозного мониторинга цен и контроля бизнес-процессов дистрибуции.
+
+#### 🌟 Ключевые возможности и архитектурные решения:
+
+- **Price Intelligence & Analytics:** Интерактивные многомерные графики (Plotly) динамики рыночных цен, плотности предложений и аналитики маржинальности с учетом таможенных моделей (DDP, DDP с НДС, Гонконг, Китай).
+- **Автоматизация обработки спецификаций (PL Parser):** Сервис парсинга и сопоставления разноформатных Excel/PL файлов в единую номенклатуру каталога.
+- **Финансово-операционный CRM-контур:** Управление цепочками инвойсов, учет оплат, контроль распределения товаров и мультивалютный пересчет.
+- **Безопасность и разграничение прав:** Интеграция OAuth 2.0 и гранулярная ролевая модель (RBAC) для отделов продаж, логистики и менеджмента.
+
+<br>
+
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+    <thead>
+      <tr align="center">
+        <th width="50%"><b>🖥 Монитор аналитики: Графики динамики цен и распределения</b></th>
+        <th width="50%"><b>🖥 Монитор операционного контура: Управление заказами и PL</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center" valign="top" style="padding: 10px;">
+          <a href="opt-one.online/screenshots/image.png">
+            <img src="opt-one.online/screenshots/image.png" alt="Opt-one Price Analytics Dashboard" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Аналитика динамики цен и предложений поставщиков (Plotly)</i></sub>
+        </td>
+        <td align="center" valign="top" style="padding: 10px;">
+          <a href="opt-one.online/screenshots/Снимок экрана 2026-09-10 130011.png">
+            <img src="opt-one.online/screenshots/Снимок экрана 2026-09-10 130011.png" alt="Opt-one Orders & Packing Lists" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Управление заказами, инвойсами и статусами автопарсинга PL</i></sub>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
