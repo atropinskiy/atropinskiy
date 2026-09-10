@@ -73,15 +73,15 @@
     <tbody>
       <tr>
         <td align="center" valign="top" style="padding: 10px;">
-          <a href="opt-one.online/screenshots/image.png">
-            <img src="opt-one.online/screenshots/image.png" alt="Opt-one Price Analytics Dashboard" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          <a href="opt-one.online/screenshots/dash.png">
+            <img src="opt-one.online/screenshots/dash.png" alt="Opt-one Price Analytics Dashboard" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
           </a>
           <br>
           <sub><i>Аналитика динамики цен и предложений поставщиков (Plotly)</i></sub>
         </td>
         <td align="center" valign="top" style="padding: 10px;">
-          <a href="opt-one.online/screenshots/Снимок экрана 2026-09-10 130011.png">
-            <img src="opt-one.online/screenshots/Снимок экрана 2026-09-10 130011.png" alt="Opt-one Orders & Packing Lists" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          <a href="opt-one.online/screenshots/orders.png">
+            <img src="opt-one.online/screenshots/orders.png" alt="Opt-one Orders & Packing Lists" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
           </a>
           <br>
           <sub><i>Управление заказами, инвойсами и статусами автопарсинга PL</i></sub>
