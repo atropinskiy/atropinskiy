@@ -73,18 +73,67 @@
     <tbody>
       <tr>
         <td align="center" valign="top" style="padding: 10px;">
-          <a href="opt-one.online/screenshots/dash.png">
-            <img src="opt-one.online/screenshots/dash.png" alt="Opt-one Price Analytics Dashboard" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          <a href="sites/opt-one.online/screenshots/dash.png">
+            <img src="sites/opt-one.online/screenshots/dash.png" alt="Opt-one Price Analytics Dashboard" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
           </a>
           <br>
           <sub><i>Аналитика динамики цен и предложений поставщиков (Plotly)</i></sub>
         </td>
         <td align="center" valign="top" style="padding: 10px;">
-          <a href="opt-one.online/screenshots/orders.png">
-            <img src="opt-one.online/screenshots/orders.png" alt="Opt-one Orders & Packing Lists" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          <a href="sites/opt-one.online/screenshots/orders.png">
+            <img src="sites/opt-one.online/screenshots/orders.png" alt="Opt-one Orders & Packing Lists" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
           </a>
           <br>
           <sub><i>Управление заказами, инвойсами и статусами автопарсинга PL</i></sub>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+
+### 2. 🤝 Opt-one Partners — B2B SaaS портал партнерских закупок, тендеров и фин. учета
+
+> **Роль:** System Architect / Lead Full-Stack Developer  
+> **Стек:** `React` • `RTK Query` • `Django` • `Tailwind CSS` • `shadcn/ui` • `WebSocket` • `Celery` • `Redis` • `PostgreSQL` • `OpenRouter API` • `HttpOnly Cookie`
+
+**Opt-one Partners** — многофункциональная SaaS-платформа для взаимодействия с B2B-партнерами, автоматизированного проведения тендеров, сбора офферов, парсинга цен и сквозного финансового учета.
+
+#### 🌟 Ключевые возможности и архитектурные решения:
+
+- **Тендерный модуль и управление офферами:** Проведение закупочных процедур в реальном времени, автоматический скоринг предложений поставщиков, определение победителей и распределение объемов партий.
+- **Интерактивная аналитика и мультивалютный трекинг:** Мониторинг кросс-курсов валют (USD, EUR, AED, CNY) в режиме реального времени, нормализованные и абсолютные графики динамики цен по моделям, анализ плотности и структуры предложений по неделям.
+- **Финансово-казначейский контур:** Контроль статусов инвойсов, балансов кошельков, поэтапных оплат, отслеживание задолженностей и автоматическое формирование распределений платежей.
+- **Реактивная архитектура и высокая отзывчивость:** Real-time доставка обновлений и статусов через WebSockets, асинхронная обработка тяжелых задач (парсинг, отчеты) в фоновых воркерах Celery + Redis с многоуровневым кэшированием.
+- **AI-интеграция (OpenRouter API):** Подключение LLM-моделей для интеллектуального анализа данных, обработки неструктурированных спецификаций и генерации таргетов.
+- **Безопасность корпоративного уровня:** Защита сессий и токенов с использованием HttpOnly Cookie, ролевая изоляция данных и аудит действий.
+
+<br>
+
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+    <thead>
+      <tr align="center">
+        <th width="50%"><b>🖥 Панель управления менеджера: Тендеры, офферы и инвойсы</b></th>
+        <th width="50%"><b>🖥 Монитор аналитики: Динамика цен, курсы валют и статистика</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center" valign="top" style="padding: 10px;">
+          <a href="sites/partners/screen_shots/main.png">
+            <img src="sites/partners/screen_shots/main.png" alt="Partners Manager Dashboard & Tenders" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Рабочее место менеджера: контроль тендеров, офферов, оплат и инвойсов</i></sub>
+        </td>
+        <td align="center" valign="top" style="padding: 10px;">
+          <a href="sites/partners/screen_shots/dash.png">
+            <img src="sites/partners/screen_shots/dash.png" alt="Partners FX & Price Dynamics Analytics" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Аналитический дашборд: курсы валют, динамика цен и объем предложений</i></sub>
         </td>
       </tr>
     </tbody>
