@@ -141,3 +141,51 @@
 </div>
 
 ---
+
+### 3. 💳 Opt-one Wallet — SaaS система трансграничных платежей, казначейства и учета
+
+> **Роль:** System Architect / Lead Full-Stack Developer  
+> **Стек:** `React` • `Redux` • `RTK Query` • `Django` • `REST API` • `Chakra UI` • `PostgreSQL` • `1C Integration` • `Bank Statement Parsers`
+
+**Opt-one Wallet** — специализированный финансово-казначейский SaaS-сервис для автоматизации международных расчетов, учета мультивалютных потоков, консолидации банковских выписок и синхронизации с корпоративными системами учета (1С).
+
+#### 🌟 Ключевые возможности и архитектурные решения:
+
+- **Мультивалютное казначейство и балансы (Treasury Dashboard):** Сквозной мониторинг фактических остатков, ожидаемых поступлений и обязательств к погашению в разрезе валют (RUB, AED, USDT, CNY) и контрагентов.
+- **Управление международными платежами и переводами:** Проведение и контроль цепочек трансграничных оплат поставщикам, учет конвертаций, фиксация курсовой разницы и балансов взаиморасчетов.
+- **Парсер банковских выписок и консолидация:** Автоматический импорт и нормализация разноформатных банковских выгрузок в единую аналитическую панель с сопоставлением платежных поручений.
+- **Интеграция с 1С и учетными системами:** Двусторонний обмен данными по заявкам на оплату, закрывающим документам, контрагентам и фактическим проводкам.
+- **Контроль обязательств и сделок:** Модуль ведения заявок на импорт, обязательств перед партнерами и исполнителями с гибкой фильтрацией и экспортом отчетов (`.xlsx`).
+
+<br>
+
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+    <thead>
+      <tr align="center">
+        <th width="50%"><b>🖥 Казначейский дашборд: Мультивалютные балансы и ликвидность</b></th>
+        <th width="50%"><b>🖥 Операционный контур: Заявки на импорт и обязательства</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center" valign="top" style="padding: 10px;">
+          <a href="sites/opt-one.wallet/screenshots/image.png">
+            <img src="sites/opt-one.wallet/screenshots/image.png" alt="Opt-one Wallet Treasury Dashboard" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Финансовый дашборд: фактические и ожидаемые остатки (RUB, AED, USDT, CNY)</i></sub>
+        </td>
+        <td align="center" valign="top" style="padding: 10px;">
+          <a href="sites/opt-one.wallet/screenshots/image%20copy.png">
+            <img src="sites/opt-one.wallet/screenshots/image%20copy.png" alt="Opt-one Wallet Imports & Obligations" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+          </a>
+          <br>
+          <sub><i>Управление заявками на импорт, реестр обязательств и экспорт отчетов</i></sub>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
